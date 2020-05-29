@@ -101,7 +101,7 @@ Vejam no exemplo abaixo:
 
 Se você não informar a versão específica de qual bundler você quer instalar, ele instalará a mais atual do momento e isso pode ser um problema, pois pacotes são atualizados o tempo todo e seu pipeline poderá quebrar porque você instalou de forma equivocada de algum binário a ser usado, pois o comportamento mudará.
 
-Uma das coisas mais importantes de um pipeline é garantir que ele é garantir o comportamento esperado. Quanto mais mecanismos você acrescentar para que cada execução de um pipeline sempre aconteça de maneira esperada, melhor ele será para você encontrar o problema de fato quando quebrar, pois você não terá dúvida que o motivo esteja de fato relacionado a modificação do código em questão.
+Uma das coisas mais importantes de um pipeline é garantir que ele tenha o comportamento esperado. Quanto mais mecanismos você acrescentar para que cada execução de um pipeline sempre aconteça de maneira esperada, melhor ele será para você encontrar o problema de fato quando quebrar, pois você não terá dúvida que o motivo esteja de fato relacionado a modificação do código em questão.
 
 #### Desvantagem ao utilizar "builds em container docker"? 
 
